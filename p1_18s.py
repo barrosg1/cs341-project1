@@ -1,27 +1,5 @@
-"""
-Name: Gabriel Barros
-NJIT UCID: 31248845
-
-
-Run from standard input using pipe:
-    cat test_cases.txt | python p1_18s_31248845.py -
-
-    -> use (-) at the end
-
-Run from user input:
-    python p1_18s_31248845.py
-
-Display output to output.txt
-cat test.txt | python p1_18s_31248845.py - >> output.txt
-
-"""
-
 import sys
 import string
-
-print "Project 1 for CS 341"
-print "Written by: Gabriel Barros, 31248845"
-print "Instructor: Marvin Nakayama, marvin@njit.edu \n"
 
 
 def read_user_input():

@@ -1,7 +1,3 @@
-Project 1 for CS 341
-Written by: Gabriel Barros, 31248845
-Instructor: Marvin Nakayama, marvin@njit.edu 
-
 www.commercial.com
 Initial state q0
 w ---> state q1
