@@ -1,3 +1,12 @@
+Project 1 for CS 341
+Written by: Gabriel Barros, 31248845
+Instructor: Marvin Nakayama, marvin@njit.edu 
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.commercial.com
+
 www.commercial.com
 Initial state q0
 w ---> state q1
@@ -20,6 +29,11 @@ o ---> state q8
 m ---> state q9
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.co.com
+
 www.co.com
 Initial state q0
 w ---> state q1
@@ -28,11 +42,16 @@ w ---> state q6
 . ---> state q7
 c ---> state q10
 o ---> state q11
-. ---> state q12
-c ---> state q13
-o ---> state q14
+. ---> state q3
+c ---> state q5
+o ---> state q8
 m ---> state q9
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.x.com
 
 www.x.com
 Initial state q0
@@ -47,6 +66,11 @@ o ---> state q8
 m ---> state q9
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+njit.co
+
 njit.co
 Initial state q0
 n ---> state q2
@@ -57,6 +81,11 @@ t ---> state q2
 c ---> state q5
 o ---> state q8
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+wwww.stanford.com
 
 wwww.stanford.com
 Initial state q0
@@ -79,6 +108,11 @@ o ---> state q16
 m ---> state q16
 Rejected!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.com.com
+
 www.com.com
 Initial state q0
 w ---> state q1
@@ -94,6 +128,11 @@ o ---> state q8
 m ---> state q9
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+ww.com.com
+
 ww.com.com
 Initial state q0
 w ---> state q1
@@ -105,8 +144,13 @@ m ---> state q9
 . ---> state q12
 c ---> state q13
 o ---> state q14
-m ---> state q9
-Accepted!
+m ---> state q17
+Rejected!
+
+Would you like to enter a string?
+y
+Enter a string: 
+co.co
 
 co.co
 Initial state q0
@@ -117,6 +161,11 @@ c ---> state q5
 o ---> state q8
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.co.com.co
+
 www.co.com.co
 Initial state q0
 w ---> state q1
@@ -125,14 +174,19 @@ w ---> state q6
 . ---> state q7
 c ---> state q10
 o ---> state q11
-. ---> state q12
-c ---> state q13
-o ---> state q14
+. ---> state q3
+c ---> state q5
+o ---> state q8
 m ---> state q9
 . ---> state q12
 c ---> state q13
 o ---> state q14
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.com
 
 www.com
 Initial state q0
@@ -145,6 +199,11 @@ o ---> state q11
 m ---> state q15
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.co
+
 www.co
 Initial state q0
 w ---> state q1
@@ -154,6 +213,11 @@ w ---> state q6
 c ---> state q10
 o ---> state q11
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.cob.com
 
 www.cob.com
 Initial state q0
@@ -170,6 +234,11 @@ o ---> state q8
 m ---> state q9
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+wwwb.com.co
+
 wwwb.com.co
 Initial state q0
 w ---> state q1
@@ -185,6 +254,11 @@ c ---> state q13
 o ---> state q14
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www..com
+
 www..com
 Initial state q0
 w ---> state q1
@@ -196,6 +270,11 @@ c ---> state q16
 o ---> state q16
 m ---> state q16
 Rejected!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.abcd.co
 
 www.abcd.co
 Initial state q0
@@ -211,6 +290,11 @@ d ---> state q2
 c ---> state q5
 o ---> state q8
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.company.co.com
 
 www.company.co.com
 Initial state q0
@@ -228,11 +312,16 @@ y ---> state q2
 . ---> state q3
 c ---> state q5
 o ---> state q8
-. ---> state q12
-c ---> state q13
-o ---> state q14
-m ---> state q9
-Accepted!
+. ---> state q16
+c ---> state q16
+o ---> state q16
+m ---> state q16
+Rejected!
+
+Would you like to enter a string?
+y
+Enter a string: 
+company.com.co
 
 company.com.co
 Initial state q0
@@ -252,6 +341,11 @@ c ---> state q13
 o ---> state q14
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.co.com.co
+
 www.co.com.co
 Initial state q0
 w ---> state q1
@@ -260,14 +354,19 @@ w ---> state q6
 . ---> state q7
 c ---> state q10
 o ---> state q11
-. ---> state q12
-c ---> state q13
-o ---> state q14
+. ---> state q3
+c ---> state q5
+o ---> state q8
 m ---> state q9
 . ---> state q12
 c ---> state q13
 o ---> state q14
 Accepted!
+
+Would you like to enter a string?
+y
+Enter a string: 
+www.com.com.co
 
 www.com.com.co
 Initial state q0
@@ -287,6 +386,11 @@ c ---> state q13
 o ---> state q14
 Accepted!
 
+Would you like to enter a string?
+y
+Enter a string: 
+www.co.co
+
 www.co.co
 Initial state q0
 w ---> state q1
@@ -295,9 +399,10 @@ w ---> state q6
 . ---> state q7
 c ---> state q10
 o ---> state q11
-. ---> state q12
-c ---> state q13
-o ---> state q14
+. ---> state q3
+c ---> state q5
+o ---> state q8
 Accepted!
 
+Would you like to enter a string?
 n

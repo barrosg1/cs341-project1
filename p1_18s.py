@@ -1,8 +1,26 @@
+"""
+Run from standard input using pipe:
+    cat test_cases.txt | python p1_18s.py -
+
+    -> use (-) at the end
+
+Run from user input:
+    python p1_18s.py
+
+Display output to output.txt
+cat test_cases.txt | python p1_18s.py - > output.txt
+
+"""
+
 import sys
 import string
 
 
 def read_user_input():
+    """
+    function to read from standard input from user
+    :return:
+    """
     while True:
         user_input = raw_input("Would you like to enter a string? \n")
 
@@ -18,12 +36,21 @@ def read_user_input():
 
 
 def read_stdin():
+    """
+    function to read from standard input from the tests_cases.txt file
+    :return:
+    """
     infile = sys.stdin
     for line in infile:
         stdin = line.lower().strip('\n')
 
+        print "Would you like to enter a string?"
+
         if stdin == 'y':
+            print stdin
+            print "Enter a string: "
             aString = next(infile)
+            print aString
             process_string(aString)
 
         elif stdin == 'n':
@@ -35,18 +62,19 @@ def read_stdin():
 
 
 def process_string(aString):
-    aString = aString.translate( None, string.whitespace)
-    print aString
+    aString = aString.lower().translate( None, string.whitespace)
 
     roman_letters = string.ascii_lowercase
 
-    state = 0
-    print "Initial state q" + str(state)
+    # accept states: 8, 9, 11, 14, 15
+    # trap states: 16, 17
 
+    state = 0
     accept = False
 
-    # accept states: 8, 9, 11, 14, 15
-    # Trap states: 16, 17
+    print aString
+
+    print "Initial state q" + str(state)
 
     for s in aString:
         accept = False
@@ -120,8 +148,6 @@ def process_string(aString):
             if s == 'm':
                 accept = True
                 state = 9
-            elif s == '.':
-                state = 12
             else:
                 state = 16
 
@@ -147,7 +173,7 @@ def process_string(aString):
             elif s in roman_letters:
                 state = 2
             elif s == '.':
-                state = 12
+                state = 3
             else:
                 state = 16
 
@@ -165,10 +191,6 @@ def process_string(aString):
                 state = 17
 
         elif state == 14:
-            if s == 'm':
-                accept = True
-                state = 9
-            else:
                 state = 17
 
         elif state == 15:
