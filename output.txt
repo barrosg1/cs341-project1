@@ -1,0 +1,307 @@
+Project 1 for CS 341
+Written by: Gabriel Barros, 31248845
+Instructor: Marvin Nakayama, marvin@njit.edu 
+
+www.commercial.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+m ---> state q15
+m ---> state q2
+e ---> state q2
+r ---> state q2
+c ---> state q2
+i ---> state q2
+a ---> state q2
+l ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+Accepted!
+
+www.co.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+. ---> state q12
+c ---> state q13
+o ---> state q14
+m ---> state q9
+Accepted!
+
+www.x.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+x ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+Accepted!
+
+njit.co
+Initial state q0
+n ---> state q2
+j ---> state q2
+i ---> state q2
+t ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+Accepted!
+
+wwww.stanford.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+w ---> state q2
+. ---> state q3
+s ---> state q16
+t ---> state q16
+a ---> state q16
+n ---> state q16
+f ---> state q16
+o ---> state q16
+r ---> state q16
+d ---> state q16
+. ---> state q16
+c ---> state q16
+o ---> state q16
+m ---> state q16
+Rejected!
+
+www.com.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+m ---> state q15
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+Accepted!
+
+ww.com.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+m ---> state q9
+Accepted!
+
+co.co
+Initial state q0
+c ---> state q2
+o ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+Accepted!
+
+www.co.com.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+. ---> state q12
+c ---> state q13
+o ---> state q14
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+www.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+m ---> state q15
+Accepted!
+
+www.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+Accepted!
+
+www.cob.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+b ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+Accepted!
+
+wwwb.com.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+b ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+www..com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+. ---> state q16
+c ---> state q16
+o ---> state q16
+m ---> state q16
+Rejected!
+
+www.abcd.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+a ---> state q2
+b ---> state q2
+c ---> state q2
+d ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+Accepted!
+
+www.company.co.com
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+m ---> state q15
+p ---> state q2
+a ---> state q2
+n ---> state q2
+y ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+. ---> state q12
+c ---> state q13
+o ---> state q14
+m ---> state q9
+Accepted!
+
+company.com.co
+Initial state q0
+c ---> state q2
+o ---> state q2
+m ---> state q2
+p ---> state q2
+a ---> state q2
+n ---> state q2
+y ---> state q2
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+www.co.com.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+. ---> state q12
+c ---> state q13
+o ---> state q14
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+www.com.com.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+m ---> state q15
+. ---> state q3
+c ---> state q5
+o ---> state q8
+m ---> state q9
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+www.co.co
+Initial state q0
+w ---> state q1
+w ---> state q4
+w ---> state q6
+. ---> state q7
+c ---> state q10
+o ---> state q11
+. ---> state q12
+c ---> state q13
+o ---> state q14
+Accepted!
+
+n
